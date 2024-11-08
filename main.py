@@ -56,7 +56,7 @@ def handle_track_me():
 
 def track_lectures():
     lectures = int(input("Enter the number of lectures you completed today: "))
-    if lectures < 2 and lectures != 0:
+    if lectures < 3 and lectures != 0:
         print("Today, something is stopping you from reaching your potential. Identify it now and start working!")
         print("Advice: Block the next 3 hours and focus on your lectures. All the best!")
     elif lectures == 0:
@@ -64,8 +64,8 @@ def track_lectures():
 
 def track_daily_question_solving():
     questions = int(input("Enter the number of questions you solved today: "))
-    if questions < 5:
-        print("Advice: Aim to solve at least 5 questions daily to keep your skills sharp. Keep pushing!")
+    if questions < 25:
+        print("Advice: Aim to solve at least 25 questions daily to keep your skills sharp. Keep pushing!")
     else:
         print("Great job! Keep up the good work and aim for even more!")
 
